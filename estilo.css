@@ -1,3 +1,36 @@
-h1{
+body{
+    background: url("sonetos-lope-plantilla/fondos/corazon-1.svg") repeat-y top left, url("sonetos-lope-plantilla/fondos/corazon-2.svg") repeat-y right top;
+    background-color: #FFEBF0;
+    background-size: 150px;
+    font-size: 1.25rem;
+    font-family: sans-serif;
     text-align: center;
+}
+h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+div{
+    border: 2px solid black ;
+    margin: 10px 150px;
+    font-weight: bold;
+}
+div.s1{
+    background: url("sonetos-lope-plantilla/fondos/manchas.png");
+    color: white;
+}
+div.s2{
+    background: url("sonetos-lope-plantilla/fondos/fuego.svg") no-repeat bottom right, url("sonetos-lope-plantilla/fondos/fuego.svg") no-repeat bottom left, url("sonetos-lope-plantilla/fondos/tallos.jpg");
+    color: #FFDD2C;
+}
+div.s3{
+    background: url("sonetos-lope-plantilla/fondos/ojo.svg") no-repeat center,url("sonetos-lope-plantilla/fondos/hexagonos.jpg");
+    background-size: contain, auto;
+    color: #800000;
+}
+div.s4{
+    background: url("sonetos-lope-plantilla/fondos/caballo.svg") repeat-x bottom,url("sonetos-lope-plantilla/fondos/estrellas.png");
+    padding-bottom: 50px;
+    background-size: 100px, auto;
+    color:#004D06;
 }
